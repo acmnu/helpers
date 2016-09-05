@@ -15,3 +15,7 @@ done
 ```bash
 func1 | help_iterator func2 param1
 ```
+
+That is realy close to xargs with line separator, but I am more comfotable with while loop. 
+
+NOTE: Remember about subshell problem!
