@@ -1,4 +1,4 @@
-function hlp_bash_iterate_a () {
+function hlp_bash_iterate () {
 	while read a; 
 		do $@ $a; 
 	done;

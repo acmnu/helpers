@@ -4,7 +4,7 @@ Collection of small shell helpers create to make life easy.
 
 ## Bash
 
-### hlp_iterator_a 
+### hlp_iterator
 
 ```bash
 func1 | while read a; do
@@ -13,5 +13,5 @@ done
 ```
  
 ```bash
-func1 | help_iterator_a func2 param1
+func1 | help_iterator func2 param1
 ```
