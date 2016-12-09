@@ -43,6 +43,16 @@ Equal to
 echo "$(pwd)/file1"
 ```
 
+### hlp_while_false_or_timeout 
+
+Repeat command until it failed or timeout
+
+
+```bash
+hlp_until_false_or_timeout <command> <count default:1> <timeout default:1>
+```
+
+
 ## JSON
 
 ### hlp_format_json
