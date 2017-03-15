@@ -30,3 +30,7 @@ function hlp_until_false_or_timeout () {
 	[ $result == "0" ] && echo "  Failed"
     return $result
 }
+
+function hlp_column_adjust () {
+	column -t 
+}
