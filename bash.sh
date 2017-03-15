@@ -34,3 +34,11 @@ function hlp_until_false_or_timeout () {
 function hlp_column_adjust () {
 	column -t 
 }
+
+function hlp_confirm_and_run () {
+	echo "Do you realy want to run following command:"
+	echo $*
+	echo -n "Press y to run "; read -n 1 x
+	echo ""
+	[[ $x == "y" ]] && eval $*
+}
