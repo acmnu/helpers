@@ -156,7 +156,7 @@ allprojects {
   targetCompatibility = langLevel
 
   repositories {
-    maven { url "http://repo.maven.apache.org/maven2" }
+    maven { url "http://172.17.0.1:8081/artifactory/apache-maven2" }
     mavenCentral()
   }
 }
