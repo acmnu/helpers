@@ -42,3 +42,8 @@ function hlp_confirm_and_run () {
 	echo ""
 	[[ $x == "y" ]] && eval $*
 }
+
+function hlp_du_subdirs () {
+    where=${1:-.}
+	du -a -m --max-depth 1 $where | sort -n
+}
